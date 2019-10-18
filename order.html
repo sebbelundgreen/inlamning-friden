@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <a href="/index.html"><button id="homebutton">Home</button></a> <br>
+
+    <h1>Add Order</h1>
+    <hr>
+
+    <form>
+        <label for="pizza">Pizza:</label>
+        <select name="orderPizza" id="pizza">
+            <option value="Andersson">Andersson</option>
+            <option value="Bratt">Bratt</option>
+            <option value="Ekwall">Ekwall</option>
+            <option value="Fergusson">Fergusson</option>
+            <option value="Forslöf">Forslöf</option>
+            <option value="Friberg">Friberg</option>
+            <option value="Ingelgren">Ingelgren</option>
+            <option value="Knutsson">Knutsson</option>
+            <option value="Molin">Molin</option>
+            <option value="Nilsson">Nilsson</option>
+            <option value="Svensson">Svensson</option>
+            <option value="Wolfbrandt">Wolfbrandt</option>
+            <option value="Wolf">Wolf</option>
+        </select>
+        <br>
+        <br>
+        <label for="table">Table:</label>
+        <select name="whichTable" id="table">
+            <option value="Baren">Baren</option>
+            <option value="Glada Lampan">Glada Lampan</option>
+            <option value="Ek">Ek</option>
+            <option value="Bak">Bak</option>
+            <option value="Nordanäng">Nordanäng</option>
+            <option value="Björnes">Björnes</option>
+            <option value="Runda">Runda</option>
+            <option value="Soffan">Soffan</option>
+            <option value="Vita">Vita</option>
+            <option value="Fotölj">Fotölj</option>
+            <option value="Fäll">Fäll</option>
+            <option value="Judgent">Judgent</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="glutenfree" id="glutenfree"> Glutenfree
+        <br>
+        <br>
+        <label for="allergier">Övriga allergier:</label>
+        <input type="text" id="allergier">
+        <br>
+        <br>
+        <button type="reset" id="clear-button">Clear</button>
+        <button type="submit" id="submit-button">Add Order</button>
+        <hr>
+
+        <h3>List of orders:</h3>
+        <ul id="order-list">
+
+        </ul>
+    </form>
+
+    <script src="main.js"></script>
+    <script src="pizza.js"></script>
+    <script src="order.js"></script>
+</body>
+
+</html>
