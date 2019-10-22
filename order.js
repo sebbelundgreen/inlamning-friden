@@ -18,6 +18,7 @@ class Order {
             Table: ${this._table} <br>
             Glutenfree: ${this._glutenfree} <br>
             Allergier: ${this._allergier}
+            <hr>
         </li>
         `;
     }
