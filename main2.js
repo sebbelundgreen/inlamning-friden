@@ -1,6 +1,6 @@
 let _firstNameOnOrder = document.querySelector('#first-name');
 let _lastNameOnOrder = document.querySelector('#last-name');
-let _dateOnOrder = document.querySelector('#date');
+let _dateOnOrder = document.querySelector('#datefield');
 let _guestsOnOrder = document.querySelector('#guests');
 let _addBookingButton = document.querySelector('#submit-booking');
 let _bookingList = document.querySelector('#booking-list');
