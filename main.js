@@ -18,9 +18,6 @@ _addOrderButton.onclick = function (evt) {
     console.log(orders);
 
     _orderList.innerHTML += `${order}`
-
-    //pizzaOrder.value = 'Andersson';
-    //document.querySelector('#option1').selected = 'selected';
 }
 
 _orderList.onclick = function (evt) {

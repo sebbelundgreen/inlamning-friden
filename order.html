@@ -9,8 +9,8 @@
     <div class="header">
         <a href="/index.html" class="home"><img src="/Friden-logo-vit.png" id="logga"></a>
         <div class="header-right">
-            <a class="open" href="/order.html">Order</a>
-            <a href="/booktable.html">Book Table</a>
+            <a class="open" href="/order.html" id="order-header">Beställning</a>
+            <a href="/booktable.html" id="booktable-header">Boka Bord</a>
         </div>
     </div>
 
@@ -39,7 +39,7 @@
         </select>
     </div>
         <br>
-        <label for="table">Table:</label>
+        <label for="table">Bord:</label>
         <select name="whichTable" id="table">
             <option value="Baren">Baren</option>
             <option value="Glada Lampan">Glada Lampan</option>
@@ -63,18 +63,16 @@
         <input type="text" id="allergier">
         <br>
         <br>
-        <button type="reset" id="clear-button">Clear</button>
-        <button type="submit" id="submit-button">Add Order</button>
+        <button type="reset" id="clear-button">Rensa Beställning</button>
+        <button type="submit" id="submit-button">Lägg Beställning</button>
         <hr>
-
-        <h3>List of orders:</h3>
+        <h3>Beställningslista:</h3>
         <ul id="order-list">
 
         </ul>
     </form>
 
     <script src="main.js"></script>
-    <script src="pizza.js"></script>
     <script src="order.js"></script>
 </body>
 
