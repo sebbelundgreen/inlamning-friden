@@ -1,3 +1,42 @@
-* {
-    box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
+
+#button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.header {
+    overflow: hidden;
+    background-color: darkgray;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.home {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .header a.open {
+    background-color: black;
+    color: white;
+  }
