@@ -12,31 +12,34 @@ button:hover {
 
 .header {
     overflow: hidden;
-    background-color: darkgray;
+    background-image: url("/friden-header.jpg");
+    background-position: center;
+    background-size: cover;
     padding: 20px 10px;
-  }
-  
-  .header a {
+}
+
+.header a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     font-size: 15px;
     line-height: 25px;
     border-radius: 4px;
-  }
-  
-  .header a.home {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .header a:hover {
+}
+
+#logga {
+height: 30px;
+margin: 40px;
+}
+
+.header a:hover {
     background-color: lightgray;
     color: black;
-  }
-  
-  .header a.open {
+}
+
+.header a.open {
     background-color: black;
     color: white;
-  }
+}
+  
