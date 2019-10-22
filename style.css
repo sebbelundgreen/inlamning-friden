@@ -23,17 +23,22 @@ button:hover {
     color: white;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
     font-size: 15px;
     line-height: 25px;
     border-radius: 4px;
-}
+  }
 
 #logga {
 height: 30px;
 margin: 40px;
 }
 
-.header a:hover {
+#order-header:hover {
+    background-color: lightgray;
+    color: black;
+}
+#booktable-header:hover {
     background-color: lightgray;
     color: black;
 }
@@ -41,5 +46,9 @@ margin: 40px;
 .header a.open {
     background-color: black;
     color: white;
+}
+
+#welcome {
+    text-align: center;
 }
   
