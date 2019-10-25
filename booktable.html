@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <form>
+    <form id="bookingForm">
         <br>
         <label for="guests">Förnamn: </label>
         <input type="text" name="firstname" id="first-name" placeholder="Namn"><br><br>
@@ -32,15 +32,14 @@
         <label for="guests">Antal gäster: </label>
         <input type="number" id="guests" name="quantity" min="1" max="20"><br><br>
         <button type="submit" id="submit-booking">Slutför bokning</button>
-        <hr>
-        <h3>Bokningslista:</h3>
+    </form>
+        <h3 id="bookingList">Bokningslista:</h3>
         <ul id="booking-list">
 
         </ul>
         <footer>
                 <p>&copy; 2019 Sebbe</p>
         </footer>
-    </form>
 
     <script src="today.js"></script>
     <script src="main2.js"></script>

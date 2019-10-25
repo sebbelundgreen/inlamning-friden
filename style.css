@@ -69,7 +69,7 @@ button:hover {
     border: 15px solid green;
     padding: 20px;
     margin: 20px;
-  }
+}
 
 footer {
     position: fixed;
@@ -80,4 +80,50 @@ footer {
     background-color: darkgray;
     color: white;
     text-align: center;
-  }
+}
+
+#orderForm {
+    width: 500px;
+    border: 5px solid darkgray;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 30%;
+}
+
+#orderList {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#order-list {
+    width: 500px;
+    border: 5px solid darkgray;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 30%;
+}
+
+#bookingForm {
+    width: 500px;
+    border: 5px solid darkgray;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 30%;
+}
+
+#bookingList {
+    text-align: center;
+    font-family: sans-serif;
+}
+                
+#booking-list {
+    width: 500px;
+    border: 5px solid darkgray;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 30%;
+}

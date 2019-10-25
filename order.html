@@ -19,7 +19,7 @@
 
 <body>
     <br>
-    <form>
+    <form id="orderForm">
         <div class="select-style">
         <label for="pizza">Pizza:</label>
         <select name="orderPizza" id="pizza">
@@ -65,15 +65,14 @@
         <br>
         <button type="reset" id="clear-button">Rensa Beställning</button>
         <button type="submit" id="submit-button">Lägg Beställning</button>
-        <hr>
-        <h3>Beställningslista:</h3>
+    </form>
+        <h3 id="orderList">Beställningslista:</h3>
         <ul id="order-list">
 
         </ul>
         <footer>
                 <p>&copy; 2019 Sebbe</p>
         </footer>
-    </form>
 
     <script src="main.js"></script>
     <script src="order.js"></script>
