@@ -62,6 +62,24 @@
     line-height: 25px;
 }
 
+#newspaper-id {
+    float: right;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 25px;
+}
+
+#newspaper-id:hover {
+    background-color: lightgray;
+    color: black;
+}
+
 .drop-button:hover {
     background-color: lightgray;
     color: black;
@@ -105,14 +123,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
     width: 50%;
 }
 
 .textStart {
     width: 500px;
-    border: 15px solid green;
+    border: 15px solid darkgray;
     padding: 20px;
     margin: 20px;
+    float: left;
 }
 
 footer {
