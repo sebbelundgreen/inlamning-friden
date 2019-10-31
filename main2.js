@@ -20,8 +20,6 @@ _addBookingButton.onclick = function (evt) {
 }
 
 _bookingList.onclick = function (evt) {
-    //console.log(evt.target);
-
     let li = evt.target;
     li.remove();
 }

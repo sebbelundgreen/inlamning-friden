@@ -23,8 +23,6 @@ _addOrderButton.onclick = function (evt) {
 }
 
 _orderList.onclick = function (evt) {
-    //console.log(evt.target);
-
     let li = evt.target;
     li.remove();
 }
